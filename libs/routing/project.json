@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/routing",
+  "sourceRoot": "libs/routing/src",
+  "prefix": "teamgoals",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/routing"],
+      "options": {
+        "jestConfig": "libs/routing/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/routing/src/**/*.ts", "libs/routing/src/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

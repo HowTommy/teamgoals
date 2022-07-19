@@ -7,6 +7,7 @@
     "api-interfaces": "libs/api-interfaces",
     "mobile-app": "apps/mobile-app",
     "mobile-app-e2e": "apps/mobile-app-e2e",
+    "routing": "libs/routing",
     "utils": "libs/utils",
     "widgets-angular": "libs/widgets-angular",
     "widgets-ionic": "libs/widgets-ionic"

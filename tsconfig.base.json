@@ -18,6 +18,7 @@
       "@teamgoals/account-feature": ["libs/account-feature/src/index.ts"],
       "@teamgoals/account-models": ["libs/account-models/src/index.ts"],
       "@teamgoals/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@teamgoals/routing": ["libs/routing/src/index.ts"],
       "@teamgoals/utils": ["libs/utils/src/index.ts"],
       "@teamgoals/widgets-angular": ["libs/widgets-angular/src/index.ts"],
       "@teamgoals/widgets-ionic": ["libs/widgets-ionic/src/index.ts"]
