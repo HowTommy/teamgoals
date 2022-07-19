@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "mobile-app": "apps/mobile-app",
+    "mobile-app-e2e": "apps/mobile-app-e2e"
+  }
+}
