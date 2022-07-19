@@ -1,0 +1,15 @@
+{
+  "projectType": "library",
+  "root": "libs/account-models",
+  "sourceRoot": "libs/account-models/src",
+  "prefix": "teamgoals",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/account-models/src/**/*.ts", "libs/account-models/src/**/*.html"]
+      }
+    }
+  },
+  "tags": ["scope:models"]
+}

@@ -1,9 +1,14 @@
 {
   "version": 2,
   "projects": {
+    "account-feature": "libs/account-feature",
+    "account-models": "libs/account-models",
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
     "mobile-app": "apps/mobile-app",
-    "mobile-app-e2e": "apps/mobile-app-e2e"
+    "mobile-app-e2e": "apps/mobile-app-e2e",
+    "utils": "libs/utils",
+    "widgets-angular": "libs/widgets-angular",
+    "widgets-ionic": "libs/widgets-ionic"
   }
 }

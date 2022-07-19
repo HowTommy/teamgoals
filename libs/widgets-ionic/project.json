@@ -1,0 +1,15 @@
+{
+  "projectType": "library",
+  "root": "libs/widgets-ionic",
+  "sourceRoot": "libs/widgets-ionic/src",
+  "prefix": "teamgoals",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/widgets-ionic/src/**/*.ts", "libs/widgets-ionic/src/**/*.html"]
+      }
+    }
+  },
+  "tags": ["scope:utils"]
+}

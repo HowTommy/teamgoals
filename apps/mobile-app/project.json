@@ -84,10 +84,7 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/mobile-app/src/**/*.ts",
-          "apps/mobile-app/src/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/mobile-app/src/**/*.ts", "apps/mobile-app/src/**/*.html"]
       }
     },
     "test": {
